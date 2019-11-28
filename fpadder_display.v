@@ -25,40 +25,31 @@ module fpadder_display(
     input clr,
     input start,
     input show_sum,
-//    input [7:0] a,
-//    input [7:0] b,
+    input [7:0] a,
+    input [7:0] b,
 
-    input x,
-    output [7:0] display1,
+    output [7:0] display_out,
     output [0:6] ca,
     output [0:3] an
     );
     
-//    wire [15:0] display1;
-    wire[7:0] a = {~x,x,x,x,x,x,x,x};
-    wire[7:0] b = {x,x,x,x,x,x,x,~x};
-    wire clr_delay = ~x;
-    
     fpadder fpa(
         clk,
-        clr_delay,
-//        start,
-        1,
-//        show_sum,
-        1,
+        clr,
+        start,
+        show_sum,
         a,
         b,
-        display1
+        display_out
     );
     
     display d(
         clk,
         clr,
-//        display1[15:12],
-//        display1[11:8],
-0,0,
-        display1[7:4],
-        display1[3:0],
+        display_out[15:12],
+        display_out[11:8],
+        display_out[7:4],
+        display_out[3:0],
         an,
         ca
      );  

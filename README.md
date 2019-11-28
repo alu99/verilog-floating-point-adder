@@ -29,6 +29,16 @@ Below are some simulation outputs that capture the floating point adder in actio
 ![image](https://user-images.githubusercontent.com/13570258/69775425-b0df9300-1166-11ea-8fbb-26593a5135b1.png)
 
 ## FPGA Demo
+Our inputs:
+a = 0 1000 100 (3)
+b = 1 1000 000 (-2)
+
+![image](https://user-images.githubusercontent.com/13570258/69775848-1f712080-1168-11ea-83dc-e2c6a7e05dc3.png)
+
+c = 0 0111 000 (1)
+
+![image](https://user-images.githubusercontent.com/13570258/69775885-40d20c80-1168-11ea-84e4-77085f064204.png)
+
 
 
 

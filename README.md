@@ -35,7 +35,7 @@ Our inputs:
 
 ![image](https://user-images.githubusercontent.com/13570258/69775848-1f712080-1168-11ea-83dc-e2c6a7e05dc3.png)
 
-* c = 0 0111 000 (1)
+* sum = 0 0111 000 (1)
 
 ![image](https://user-images.githubusercontent.com/13570258/69775885-40d20c80-1168-11ea-84e4-77085f064204.png)
 

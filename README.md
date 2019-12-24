@@ -1,5 +1,5 @@
 # verilog-floating-point-adder
-Verilog program that calculates the sum of 2 floating point binary numbers
+Verilog program that calculates the sum of 2 floating point binary numbers. Unfortunately, I can't include my source code since it would be a violation of academic integrity policies to post my work online.
 
 ## Course Background
 In my Digital Circuits and Systems laboratory course, we spent an entire semester learning about and utilizing Verilog. We  programmed various digital systems in Verilog like counters, adders, and multipliers and loaded them onto the Basys3 FPGA board. I uploaded my floating point adder project to Github because it best encapulates the core concepts that we learned throughout the semester. Please learn more about it below!

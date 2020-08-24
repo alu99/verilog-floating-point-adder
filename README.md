@@ -8,9 +8,9 @@ In my Digital Circuits and Systems laboratory course, we spent an entire semeste
 For this project, I implemented an 8 bit floating point adder using the controller/datapath model. The user first inputs 2 8-bit floating point numbers using the 16 switches on the FPGA. The FPGA displays the 2 inputs on its 4 digit 7 segment display. When the user presses a button on the FPGA, the algorithm computes the sum and displays it on the 4 digit 7 segment display.
 
 ### Organization of 8-bit floating point numbers
-An 8-bit floating point representation of the number `-1.110 * 2^1` would look like this: `1 1110 110`.
+An 8-bit floating point representation of the number `-1.110 * 2^1` would look like this: `1 1000 110`.
 * The leftmost bit is the sign bit. If it's `1`, the number is negative. If it's `0`, the number is positive.
-* The middle 4 bits are the exponent. It is in excess 7 form, which means we subtract 7 from the exponent value. In the example above, `1110` = `8` in base 10. `8 - 7 = 1`. Therefore, our exponent is `2^1`. 
+* The middle 4 bits are the exponent. It is in excess 7 form, which means we subtract 7 from the exponent value. In the example above, `1000` = `8` in base 10. `8 - 7 = 1`. Therefore, our exponent is `2^1`. 
 * The last 3 bits are the mantissa (or significand). They represent the digits to the right of the decimal point. Floating point numbers are normalized so that the digit to the left of the decimal point is always 1. That's why we don't need an extra bit to store that 1.
 
 ### Adding 2 8-bit floating point numbers

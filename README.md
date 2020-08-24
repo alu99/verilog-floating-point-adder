@@ -25,6 +25,7 @@ The controller/datapath model separates the logic into 2 distinct parts: the `da
 
 ## Vivado Simulations
 Below are some simulation outputs that capture the floating point adder in action.
+
 ![image](https://user-images.githubusercontent.com/13570258/69775399-9dccc300-1166-11ea-9973-35700ba49cc2.png)
 ![image](https://user-images.githubusercontent.com/13570258/69775425-b0df9300-1166-11ea-8fbb-26593a5135b1.png)
 

@@ -15,7 +15,9 @@ An 8-bit floating point representation of the number `-1.110 * 2^1` would look l
 
 ### Adding 2 8-bit floating point numbers
 Below is a very high level description about the algorithm to sum 2 floating point numbers.
+
 ![image](https://user-images.githubusercontent.com/13570258/69774648-82f94f00-1164-11ea-9389-93518111464b.png)
+
 Since I don't want to clutter the README with a very lengthy and verbose explanation, please do a quick Google search if you want to learn more about the algorithm!
 
 ### Controller/datapath model
